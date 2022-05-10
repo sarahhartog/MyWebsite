@@ -59,3 +59,13 @@ main {
     flex-direction: column
   
 }
+
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: azure;
+    color:brown;
+    font-size: 25px ;
+    line-height: 1,5rem;
+  }
+}
