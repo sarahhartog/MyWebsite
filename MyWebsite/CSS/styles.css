@@ -21,6 +21,10 @@ padding: 1%;
     margin: 5% 10%;
 }
 
+.media{
+display:flex;
+}
+
 .block{
     float: left;
     width: 30%;
@@ -44,4 +48,14 @@ main {
     border:rgb(185, 10, 10) double;
     margin: 5% 10%;
     padding: 8% 3%
+}
+
+*/ MEDIA QUERIES /*
+
+@media screen and (max-width:320px) {
+ 
+.media {
+
+    flex-direction: column
+  
 }
